@@ -23,3 +23,8 @@ a = [1,2,3]
 b = a
 a[0] = 'hbb'
 print(a, b)   # ['hbb', 2, 3] ['hbb', 2, 3]
+
+
+# int str tuple 为值类型， list set dict为引用类型
+
+id(a)  # a的变量地址，，，

@@ -24,3 +24,13 @@ while n <= 100:
   print(n)
   n += 1
 print('end',n)
+
+
+# continue语句，跳过当前的这次循环，直接开始下一次循环。
+
+n = 0
+while n < 10:
+  n += 1
+  if n%2== 0:
+    continue
+  print(n)  # 1 3 5 7 9
