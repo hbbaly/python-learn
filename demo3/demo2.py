@@ -81,4 +81,4 @@ person('hbb',27,job='it',nickName = 'king')   # hbb 27 0 1 2 3 4
 # {'job': 'it', 'nickName': 'king'}
 # name: hbb age: 27 other: {'job': 'it', 'nickName': 'king'}
 
-# 命名关键字参数
+# 命名关键字参数  和关键字参数**kw不同，命名关键字参数需要一个特殊分隔符*，*后面的参数被视为命名关键字参数。

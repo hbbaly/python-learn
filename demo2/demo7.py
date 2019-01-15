@@ -45,12 +45,12 @@ s.remove(6)
 s.remove(5)
 print(s)  # {1,2,3,4}
 
-
+# 可变元素
 a = ['3', '2', '1']
 a.sort()
 print(a)   # 1,2,3
 
-
+# 不可变
 string = 'abc'
 string.replace('a', 'A')
 print(string)   # abc
