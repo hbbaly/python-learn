@@ -1,3 +1,5 @@
+
+# -*- coding: utf-8 -*
 # 条件判断
 age = 20
 if age <= 20:

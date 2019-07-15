@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 # boolean  True False  ，都是首字母大写，小写会报错。
 print(True)   # True
 print(False)  # False

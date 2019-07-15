@@ -1,10 +1,11 @@
+# -*- coding: utf-8 -*
 # 逻辑运算符
 
 # and or not  
 # 逻辑运算符并不是返回的是bool   也有可能是某个为True的只
 
 
-'a' and 'b'  # 'b'
+print('a' and 'b')  # 'b'
 
 'a' or 0  # 'a'
  

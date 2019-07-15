@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 # python基本数据类型
 print(type(1))  #int
 print(type(1.234)) #float

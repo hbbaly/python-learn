@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 # 元祖
 
 type((1,2,3,4))   # tuple

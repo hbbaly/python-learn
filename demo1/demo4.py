@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 # 字符串的操作
 # 单引号，双引号，三引号
 type('hello world')  # str
