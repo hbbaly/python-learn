@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 # for else 应用 序列， 集合， 字典
 arr = [1, 2, 3, 4, 5]
 for x in arr:

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 # 复习for循环
 # while的用法
 counter = 0

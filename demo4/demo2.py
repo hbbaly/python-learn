@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 # 迭代
 # list或tuple，我们可以通过for循环来遍历这个list或tuple，这种遍历我们称为迭代（Iteration）
 # 迭代是通过for ... in来完成的

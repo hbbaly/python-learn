@@ -1,3 +1,5 @@
+
+# -*- coding: utf-8 -*
 # 切片 类似于Slice  从索引0开始取，直到索引n为止，但不包括索引n
 L = ['Michael', 'Sarah', 'Tracy', 'Bob', 'Jack']
 print(L[0:4])   # ['Michael', 'Sarah', 'Tracy', 'Bob']   ,左闭右开  
@@ -7,7 +9,6 @@ print(L[:4])
 # 它同样支持倒数切片
 print(L[-2:])   # ['Bob', 'Jack']
 print(L[-2:-1])  # ['Bob']
-
 
 # 只写[:]就可以原样复制一个
 print(L[:])
