@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 # __slots__: 该class实例能添加的属性
 class F():
   __slots__ = ('name', 'age')

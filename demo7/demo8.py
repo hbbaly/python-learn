@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 # 判断一个对象是否是函数：
 import types  # ['AsyncGeneratorType', 'BuiltinFunctionType', 'BuiltinMethodType', 'ClassMethodDescriptorType', 'CodeType', 'CoroutineType', 'DynamicClassAttribute', 'FrameType', 'FunctionType', 'GeneratorType', 'GetSetDescriptorType', 'LambdaType', 'MappingProxyType', 'MemberDescriptorType', 'MethodDescriptorType', 'MethodType', 'MethodWrapperType', 'ModuleType', 'SimpleNamespace', 'TracebackType', 'WrapperDescriptorType', '_GeneratorWrapper', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_ag', '_calculate_meta', 'coroutine', 'new_class', 'prepare_class', 'resolve_bases']
 
@@ -19,10 +20,14 @@ class Fa():
 
 
 class S(Fa):
+    name = 'hbbaly'
     def print_info(self):
         print('this is s')
 
+    def set_name (self):
+        self.name = 'hbbaly1314'
 
+print(dir(S))  # ['__doc__', '__module__', 'name', 'print_info', 'set_name']
 a = Fa()
 b = S()
 print(isinstance(a, Fa))  # True

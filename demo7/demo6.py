@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 # 类的继承
 class Fa():
     def print_info(self):

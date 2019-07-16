@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 # 类的多态
 class Fa():
     def print_info(self):

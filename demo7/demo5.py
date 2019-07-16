@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 #  __使用在外部获取不到类的属性，我们可以增加set， get
 class Teacher ():
     __name = ''

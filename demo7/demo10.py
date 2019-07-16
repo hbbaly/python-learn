@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 # @ property: 给函数动态添加功能
 class Student(object):
   @property
@@ -23,7 +24,10 @@ class S():
   @property
   def age(self):
     return self._score
-
+  # @age.setter
+  # def age(self, value):
+  #   self._score = value
 s = S()
 s.score = 100
-print(s.age)
+# s.age = 20
+print(s.age) # S instance has no attribute '_score'

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 # 函数返回多个结果的写法
 def result(a, b, c):
     return a, b, c
