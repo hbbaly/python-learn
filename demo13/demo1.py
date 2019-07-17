@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 # 原生爬虫
 from urllib import request
 import re

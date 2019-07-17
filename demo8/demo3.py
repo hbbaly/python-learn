@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 # 数量词, 默认是贪婪模式，在满足情况下尽可能取多的
 import re
 a = 'asdf123efe456g'

@@ -1,7 +1,9 @@
+# -*- coding: utf-8 -*
 # 正则表达式
+
 import re
 print(dir(re))
-a = '1c2c++3c#4python5js6java7go'
+a = '1c2c++3c#4python5js6java78go'
 b = re.findall('python', a)  # ['python']吧符合条件的组合成序列
 if len(b) > 0:
     print('python')

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 # 正则表达式
 import re
 a = 'abc,adc,aec,afc,agc,ahc,asc'

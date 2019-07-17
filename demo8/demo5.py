@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 # match使用, ()一个括号对应一组
 import re
 a = '023-5803511'

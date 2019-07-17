@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 # 使用枚举类型
 from enum import Enum, unique
 @unique  # @unique装饰器可以帮助我们检查保证没有重复值。

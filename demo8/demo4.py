@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 # * 匹配0次，多次
 import re
 a = 'javf123java456javaaaa'
