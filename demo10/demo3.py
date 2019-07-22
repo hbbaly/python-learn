@@ -1,5 +1,5 @@
 import os
-print(dir(os))
+# print(dir(os))
 print(os.name) # posix # 操作系统类型
 print(os.uname()) # 取详细的系统信息
 print(os.environ) # 环境变量

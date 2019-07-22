@@ -1,8 +1,8 @@
 # 序列反向
-# a = [1,4,3,2,5,6]
-# b = reversed(a)
-# for x in b:
-#   print(x)
+a = [1,4,3,2,5,6]
+b = reversed(a)
+for x in b:
+  print(x)
 
 class Float_range:
   def __init__(self, start, end, step=0.1):

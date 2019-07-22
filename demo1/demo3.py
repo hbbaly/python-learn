@@ -15,3 +15,7 @@ bool(0) # False
 
 
 # 除了0可以表示False，'',[],{}，None也可以表示为False
+
+a = 444444;b = 444444
+
+print(a is b)

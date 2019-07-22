@@ -2,6 +2,7 @@
 # 第一种方法sorted推荐使用
 from random import randint
 a = {x:randint(60,100) for x in 'qwertyuio'}
+print(a)
 b = a.items() # 元祖 
 print(b)
 c = sorted(b, key=lambda x : x[1],reverse=True)  # True 从大到小，False从小到大
