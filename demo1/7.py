@@ -25,12 +25,15 @@ class DB() :
     data = ''
     if type == "all":
       data = self.cursor.fetchall()
+
     else:
       data = self.cursor.fetchone()
+      # 获取的数组转为字典
+      data = [dict(zip([item[0] for item in self.cursor.description], data))]
     self.connect.commit()
     self.close_connect()
     # data是一个元祖
-    data = [dict(zip([item[0] for item in self.cursor.description], data))]
+    
     return data
 sql = """CREATE TABLE EMPLOYEE (
   FIRST_NAME  CHAR(20) NOT NULL,
@@ -43,5 +46,5 @@ test = DB()
 
 findOneSql = "SELECT * FROM `test`.`user`"
 
-print(test.findData(findOneSql, 'one')[0])
+print(test.findData(findOneSql, 'one'))
 
