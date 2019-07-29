@@ -348,3 +348,15 @@ session.commit()
 # 关闭Session:
 session.close()
 ```
+
+### sqlalchemy 常用方法
+```py
+1. session.add_all() // 一次添加多条
+2. session.rollback() // 回滚
+3. query = session.query(User).filter(User.name.like('%ed')).order_by(User.id) // 按照id顺序获取name已ed结尾数据
+4. query.all()  // 获取上述全部上句
+5. query.first() // 获取第一个
+6. query.scalar()  // 调用one（）方法，成功后返回行的第一列
+7. for user in session.query(User).filter(text("id<224")).order_by(text("id")).all() // 文本字符串可以灵活地用于查询，方法是指定它们与大多数适用方法都接受的text（）构造一起使用。例如，filter（）和order_by（）
+8. session.query(User).filter(User.name.like('%ed')).count()  // 符合条件的个数量
+```
