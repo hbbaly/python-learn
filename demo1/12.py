@@ -12,8 +12,9 @@ class User(Base):
     __tablename__ = 'news'
 
     # 表的结构:
-    id = Column(String(20), primary_key=True)
-    name = Column(String(20))
+    id = Column(String(20), primary_key=True, nullable=False)
+    name = Column(String(20), nullable=False)
+    content = Column(String(200))
 
 
 engine = create_engine('mysql+pymysql://root:123456789@localhost:3306/test')

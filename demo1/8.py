@@ -14,6 +14,7 @@ class User(Base):
     # 表的结构:
     id = Column(String(20), primary_key=True)
     name = Column(String(20))
+    content = Column(String(200))
 
 
 engine = create_engine('mysql+pymysql://root:123456789@localhost:3306/test')
@@ -27,7 +28,6 @@ DBSession = sessionmaker(bind=engine)
 
 # 插入数据
 # 创建DBSession类型:
-DBSession = sessionmaker(bind=engine)
 
 # 创建session对象:
 session = DBSession()

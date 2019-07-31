@@ -14,6 +14,7 @@ class User(Base):
     # 表的结构:
     id = Column(String(20), Sequence('user_id_seq'), primary_key=True)
     name = Column(String(20))
+    content = Column(String(200))
 
 
 engine = create_engine('mysql+pymysql://root:123456789@localhost:3306/test')
