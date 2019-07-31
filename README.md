@@ -359,4 +359,5 @@ session.close()
 6. query.scalar()  // 调用one（）方法，成功后返回行的第一列
 7. for user in session.query(User).filter(text("id<224")).order_by(text("id")).all() // 文本字符串可以灵活地用于查询，方法是指定它们与大多数适用方法都接受的text（）构造一起使用。例如，filter（）和order_by（）
 8. session.query(User).filter(User.name.like('%ed')).count()  // 符合条件的个数量
+9.query.get(number) // number为第几个，获取第几个
 ```
