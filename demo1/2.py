@@ -6,7 +6,8 @@ db = pymysql.connect("localhost","root","123456789","test" )
  
 # 使用 cursor() 方法创建一个游标对象 cursor
 cursor = db.cursor()
-# 使用 execute() 方法执行 SQL，如果表存在则删除
+# 使用 execute() 方法执行 SQL，
+# 如果表存在则删除
 cursor.execute("DROP TABLE IF EXISTS EMPLOYEE")
  
 # 使用预处理语句创建表

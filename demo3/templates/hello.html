@@ -1,0 +1,23 @@
+<!doctype html>
+<title>Hello from Flask</title>
+{% if name %}
+  <h1>Hello {{ name }}!</h1>
+{% else %}
+  <h1>Hello World!</h1>
+{% endif %}
+{# for循环使用 #}
+<ul>
+{%- for user in users %}
+  <li>{{ user.username|e }}</li>
+  <li>{{ loop.index }}</li>
+  <li>{{ loop.previtem }}</li>
+{%- endfor %}
+</ul>
+
+<h1> user 为空</h1>
+
+{% for user in []%}
+  <h1> 有 </h1>
+{% else %}
+  <h1> 无 </h1>
+{% endfor %}

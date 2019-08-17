@@ -1,6 +1,5 @@
 import pymysql
-
-class DB() :
+class DB():
   def __init__(self, host="localhost", root = 'root',  password="123456789", base='test'):
     # 建立链接
     self.connect = pymysql.connect(host, root, password, base)
@@ -11,7 +10,7 @@ class DB() :
     return self.cursor
   def close_connect(self):
     self.connect.close()
-  # 
+  #
   def createDb(self, sql):
     self.__isExsistDb__()
     self.cursor.execute(sql)

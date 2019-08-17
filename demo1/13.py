@@ -16,7 +16,6 @@ class User (Base):
   content = Column(String(200))
 
 
-
 class TestNews(object):
   def __init__ (self):
     self.session = DBSession()
